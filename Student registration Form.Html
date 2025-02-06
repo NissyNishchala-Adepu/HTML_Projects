@@ -1,0 +1,61 @@
+STUDENT REGISTRATION FORM Using HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend align="center"><h1> Student Registration Form </h1></legend>
+
+            <h2>Student Information</h2>
+            <p>Full Name:* <input type="text" name="Name" id="name" required></p>
+            <p>Date of Birth:* <input type="date" name="DOB" id="DOB" required></p>
+            <p>Gender:*  <input type="radio" name="gender" id="gender" required>Male    <input type="radio" name="gender" id="gender" required>Female </p>
+            <p>Nationality:* <select name="nation" id="nation" required>
+                <option value="">---Select Nationality---</option>
+                <option value="Indian">Indian</option>
+                <option value="American">American</option>
+                <option value="Canadian">Canadian</option>
+                <option value="Japanese">Japanese</option>
+                <option value="Mexican">Mexican</option>
+                <option value="South Korean">South Korean</option>
+                </select></p>
+            <p>Contact Information:* <input type="number" name="number" id="number" required></p>
+
+            <h2>Parent/Guardian Inforamtion</h2>
+            <p>Parent/Guardian Name(s):* <input type="text" name="name" id="name" required></p>
+            <p>Relationship to Student:* <input type="text" name="relation" id="relation" required></p>
+            <p>Contact Information(Phone Number, Email):* <input type="text" name="info" id="info" required></p>
+            <p>Emergency Contact Inforamtion: <input type="text" name="eci" id="eci"></p>
+
+            <h2>Education Information</h2>
+            <p>Institution Name:* <input type="text" name="institution info" id="institution info" required></p>
+            <p>Roll Number:* <input type="number" name="roll no" id="roll no" required></p>
+            <p>Highest Qualification:* 
+                <select name="qualification" id="qualification" required>
+                    <option value="">---chooce your Degree---</option>
+                    <option value="B.Com">B.Com</option>
+                    <option value="B.Sc">B.Sc</option>
+                    <option value="B.E">B.E</option>
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="M.E">M.E</option>
+                    <option value="M.Sc">M.Sc</option>
+                    <option value="M.Tech">M.Tech</option>
+                    <option value="MCA">MCA</option>
+                    <option value="MBA">MBA</option>
+                </select>
+            </p>
+            
+            <p>Graduation Timeline:*</p>
+            <p>Year of Course Enrollment: <input type="date" name="Grd srt date" id="Grd srt date" required></p>
+            <p>Year of Pass out: <input type="date" name="Grd end date" id="Grd end date" required></p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+</html>
